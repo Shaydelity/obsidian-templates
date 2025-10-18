@@ -23,11 +23,19 @@ cssclasses: [daily, <% moment(tp.file.title, "YYYY-MM-DD").format("dddd").toLowe
 > previous:: [[<% moment(tp.file.title, "YYYY-MM-DD").subtract(1, "day").format("YYYY-MM-DD") %>]]
 
 - - -
+ 
+<%*
+let day = moment(tp.file.title, "YYYY-MM-DD").day(); // Sunday = 0, Monday = 1, ..., Saturday = 6
 
-| Time       | Type     | Work                         |
-| ---------- | -------- | ---------------------------- |
-| 9:30–10:00 | Indirect |  |
-|            |          |                              |
+if (day >= 1 && day <= 5) {
+    tR += `| Time       | Type     | Work |
+| ---------- | -------- | ---- |
+| 9:30–10:00 | Indirect |      |
+|            |          |      |`;
+} else {
+    tR += ``;
+}
+%>
 
 ![[<% moment(tp.file.title, "YYYY-MM-DD").format("GGGG-[W]WW") %>#My Affairs - CW42, 2025]]
 
