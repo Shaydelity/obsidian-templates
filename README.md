@@ -4,7 +4,7 @@ These are the templates I use regularly within my obsidian vault. I share them s
 
 ## Structure
 
-> You may notice that I put a clear line before the metadata! This is **INTENTIONAL** because when you use the template the YAML frontmatter will be reformatted in a format that I *do not want* unless you make sure it is **not** recognized as frontmatter once the template's generation finished. That is what I have the clear line for, which I immediately remove after the file's generation.
+> You may notice that I put a clear line before the frontmatter! This is **INTENTIONAL** because when you use the template the YAML frontmatter will be reformatted in a format that I *do not want* unless you make sure it is **not** recognized as frontmatter once the template's generation finished. That is what I have the clear line for, which I immediately remove after the file's generation.
 
 1. Excalidraw: Folder of Templates for [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) (I have not yet made any, dunno if that will change).
 2. Insertions: Folder of Templates meant to be inserted during the making of a document. Only has lists of contents for (german) analysis writing and similar from my school days currently. Will probably expanded soon-ish.
