@@ -1,6 +1,7 @@
+
 ---
 tags: []
-title: "<% tp.file.title %>"
+title: <% tp.file.title %>
 status: [RES]
 aliases: ["<% tp.file.title %>"]
 linter-yaml-title-alias: "<% tp.file.title %>"

@@ -4,8 +4,11 @@ These are the templates I use regularly within my obsidian vault. I share them s
 
 ## Structure
 
+> You may notice that I put a clear line before the metadata! This is **INTENTIONAL** because when you use the template the YAML frontmatter will be reformatted in a format that I *do not want* unless you make sure it is **not** recognized as frontmatter once the template's generation finished. That is what I have the clear line for, which I immediately remove after the file's generation.
+
 1. Excalidraw: Folder of Templates for [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) (I have not yet made any, dunno if that will change).
 2. Insertions: Folder of Templates meant to be inserted during the making of a document. Only has lists of contents for (german) analysis writing and similar from my school days currently. Will probably expanded soon-ish.
-3. The common templates: Each template is designed to be used within certain folders, after which they are also named. They are not supposed to be manually invoked. I use the [Advanced New File](https://github.com/vanadium23/obsidian-advanced-new-file) plugin to always create files in the folders they are supposed to end up in, making all templating wholly automatic. They always start with a "T" for template which makes sure there won't occur any double file names within my vault. 
+3. Kanban: Meant for kanban notes. I recommend having a hotkey or quick access to the "switch to kanban view" command. Make sure that if you use a [linter](https://github.com/platers/obsidian-linter) or similar that it won't mess too much with the file/best disable it completely.
+4. The common templates: Each template is designed to be used within certain folders, after which they are also named. They are not supposed to be manually invoked. I use the [Advanced New File](https://github.com/vanadium23/obsidian-advanced-new-file) plugin to always create files in the folders they are supposed to end up in, making all templating wholly automatic. They always start with a "T" for template which makes sure there won't occur any double file names within my vault. 
 
 > The "T Note" template is the standard one used if none other is defined. The Anchor of Content template is not yet used and mostly a filler.

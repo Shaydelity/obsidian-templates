@@ -1,8 +1,9 @@
+
 ---
 tags: []
-title: "<% tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, '') %>"
+title: <% tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, '') %>
 status: [RES]
-aliases: ["<% tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, '') %>", "<%* let t = tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, ''); let m = t.match(/^\s*(.*?)\s*-\s*(.+)/); if(m) tR += m[1].trim(); %>"]
+aliases: ["<% tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, '') %>"<%* let t = tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, ''); let m = t.match(/^\s*(.*?)\s*-\s*(.+)/); if(m) tR += `, "${m[1].trim()}"`; %>]
 linter-yaml-title-alias: "<% tp.file.title.replace(/^\d{4}-\d{2}-\d{2}_/, '') %>"
 creation date & time: <% tp.file.creation_date() %>
 modified date & time: <% tp.file.creation_date() %>

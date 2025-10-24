@@ -1,6 +1,7 @@
+
 ---
 tags: <% tp.file.folder() %>
-title: "<% tp.file.title %>"
+title: <% tp.file.title %>
 status: []
 aliases: ["<% tp.file.title %>"]
 linter-yaml-title-alias: "<% tp.file.title %>"

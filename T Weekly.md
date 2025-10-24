@@ -1,7 +1,8 @@
+
 ---
 tags: [Personal/Diary]
 marker: ""
-title: "<% tp.file.title %>"
+title: <% tp.file.title %>
 status: [RES]
 aliases: ["<% tp.file.title %>"]
 linter-yaml-title-alias: "<% tp.file.title %>"
@@ -39,7 +40,12 @@ cssclasses: [weekly, <% moment(tp.file.title, "GGGG-[W]WW").format("[cw]ww").toL
 > - [ ] B
 ^additional-affairs
 
-![[<% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[WW]WW") %>#^work-affairs]]
+> [!anchor] Work Affairs
+>
+> - Zeiterfassung
+> - ~~Ticket Moving~~
+> - [ ] B
+^work-affairs
 
 ## Week
 
