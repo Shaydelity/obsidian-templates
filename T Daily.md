@@ -5,6 +5,7 @@ marker: ""
 title: <% tp.file.title %>
 status: []
 aliases: ["<% tp.file.title %>"]
+linter-yaml-title-alias: "<% tp.file.title %>"
 description: ""
 creation date & time: <%tp.date.now("YYYY-MM-DD")%> <%tp.date.now("HH:mm")%>
 modified date & time: <%tp.date.now("YYYY-MM-DD")%> <%tp.date.now("HH:mm")%>
