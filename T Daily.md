@@ -39,7 +39,7 @@ if (day >= 1 && day <= 5) {
 }
 %>
 
-![[<% moment(tp.file.title, "YYYY-MM-DD").format("GGGG-[W]WW") %>#My Affairs - CW42, 2025]]
+![[<% moment(tp.file.title, "YYYY-MM-DD").format("GGGG-[W]WW") %>#My Affairs - <% moment(tp.file.title, "YYYY-MM-DD").format("[CW]WW, YYYY")%>]]
 
 - - -
 
