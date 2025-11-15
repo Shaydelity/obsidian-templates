@@ -23,11 +23,12 @@ cssclasses: [MoC]
 
 ## Month
 
-> [!anchor] Abstract Goals - <% moment(tp.file.title, "YYYY-MM").format("mm, YYYY") %>
+> [!anchor] Abstract Goals - <% moment(tp.file.title, "YYYY-MM").format("MMMM, YYYY") %>
 >
 > [[<% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>|This month]]
 >
 > 1. ?
+^monthly
 
 ### Summary
 

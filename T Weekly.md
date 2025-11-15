@@ -33,6 +33,7 @@ cssclasses: [weekly, <% moment(tp.file.title, "GGGG-[W]WW").format("[cw]ww").toL
 > [!anchor] Concrete Affairs
 >
 > - [ ] Finish [[<% moment(tp.file.title, "GGGG-[W]WW").subtract(1, "week").format("GGGG-[W]WW") %>]]
+> - [ ] ! Monthly Payments
 ^concrete-affairs
 
 > [!anchor] Additional Affairs
