@@ -1,5 +1,8 @@
 # Shaydelity's Obsidian Templates
 
+> [!WARNING]
+> This repository is discontinued as my templates are now featured in my [.obsidian repository on codeberg](https://codeberg.org/Shaydelity/.obsidian)!
+
 These are the templates I use regularly within [my obsidian vault](https://github.com/Shaydelity/.obsidian). I share them so that others may be able to take things from them for their own vaults and needs.
 
 ## Structure
